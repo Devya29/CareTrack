@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MapTrackApplication" parent="Theme.Material3.DayNight.NoActionBar"/>
+
+    <style name="Theme.MapTrackApplication" parent="Base.Theme.MapTrackApplication">
+
+        <!--  SYSTEM BARS HANDLE -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!--  THIS FIXES PUNCH HOLE / CUTOUT -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+    </style>
+
+</resources>
